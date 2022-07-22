@@ -5,16 +5,20 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <ul>
-                <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")} > 
+                <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")} >
                     <li>accueil</li>
-                </NavLink> 
+                </NavLink>
                 <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")} >
                     <li>à propos</li>
                 </NavLink>
+                <NavLink to="/pays" className={(nav) => (nav.isActive ? "nav-active" : "")} >
+                    <li>pays</li>
+                </NavLink>
             </ul>
-            
         </div>
     );
 };
 
 export default Navigation;
+
+/**Créer les liens de navigation */

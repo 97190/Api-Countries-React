@@ -1,0 +1,24 @@
+.banner {
+    // @include verticalCenter;
+
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 20px;
+    padding: 25px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+    background: url(../../assets/img/map.jpg) center/cover;
+
+    img {
+        height: 100px;
+
+    }
+
+    h3 {
+        margin-left: 10px;
+        color: $color-1;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+}
