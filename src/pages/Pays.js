@@ -3,6 +3,7 @@ import Banner from '../components/Banner';
 import Navigation from '../components/Navigation';
 
 
+
 function Pays() {
     return (
         <div>
