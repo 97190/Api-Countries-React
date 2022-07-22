@@ -18,7 +18,8 @@ const Countries = () => {
             <h1>Countries</h1>
             <ul>
                 {data.map((country, index) => (
-                    <li key={index}>{country.translation.fra.common}</li>
+                    //<li key={index}>{country.translations.fra.common}</li>
+                    <Card key={index} country={country} />
                 ))}
             </ul>
         </div>
